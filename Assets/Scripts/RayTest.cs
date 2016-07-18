@@ -6,8 +6,11 @@ using System.Collections;
 public class RayTest : MonoBehaviour
 {
     public GameObject bullet;
+    public GameObject questions;
+    void Start( )
+    {
 
-
+    }
     // Update is called once per frame
     void Update()
     {
@@ -32,6 +35,10 @@ public class RayTest : MonoBehaviour
                 Fire();
             }
         }
+    }
+    public void startTest( )
+    {
+        questions.SetActive(true);
     }
     void Fire()
     {

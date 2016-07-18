@@ -11,19 +11,6 @@ public class Question : MonoBehaviour
     public GameObject circle;
     public Text debugText;
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-    
-    }
-
     public void moveProblem()
     {
         Invoke("invokeTransform", 2);
